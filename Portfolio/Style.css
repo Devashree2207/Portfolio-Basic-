@@ -1,0 +1,337 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: white !important;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    border:1px solid lightgray;
+}
+.navbar-brand{
+    font-size: 30px;
+}
+.nav-link{
+    margin: 15px;
+    color:rgb(32, 31, 31) !important;
+    font-size: 20px;
+}
+.nav-link:hover{
+    color: #084891 !important;
+    background-color: #f0f4fa;
+    border-bottom: 2px solid #084891;
+}
+
+.resume-btn{
+    background-color:rgb(32, 31, 31) !important;
+    color: white !important;
+    border-radius: 20px;
+    border:none;
+}
+.offcanvas-title{
+    color: rgb(32, 31, 31) !important;
+    font-size: 25px;
+}
+.navbar-toggler{
+    border:none;
+}
+.aboutme{
+    min-height:450px;
+    margin-top:80px;
+    padding:40px 0;
+    width: 100%;
+}
+.aboutmeContainer{
+    width: 100%;
+    border: 1px solid lightgrey;
+    display: flex;
+    align-items: center;
+}
+.aboutmeleft{
+    padding-top: 80px;
+}
+.aboutmeleft h1{
+    font-size: 20px;
+    font-family:'space mono' , monospace;
+    color: #084891;
+    letter-spacing:2px;
+}
+.aboutmeleft h2{
+    font-size: 72px;
+    font-family:'Poppins', sans-serif;
+    color:black;
+}
+
+.aboutmeleft p{
+    font-size: 20px;
+    color: rgb(32, 31, 31) !important;
+    margin:20px 0px;
+    letter-spacing: 1px;
+    font-family: 'Poppins', sans-serif;
+}
+.aboutmeright{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:30px;
+}
+.aboutmeright img{
+    margin-bottom: 20px;
+}
+.work{
+     background-color: rgb(32, 31, 31) !important;
+    color: white !important;
+    border-radius: 20px;
+    border:none;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.aboutmeright img{
+    width:100%;
+    max-width:320px;
+    border-radius:20px;
+}
+.skills {
+    padding: 40px 0;
+    border:1px solid lightgray;
+}
+
+.skills h2 {
+    color: rgb(32, 31, 31);
+    font-size: 45px;
+    margin-bottom: 25px;
+}
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.skill {
+    color: #0000cc;
+    border: 1px solid #aaaaff;
+    background-color: #f0f1ff;
+    padding: 8px 15px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: monospace;
+}
+.contact{
+    min-height: 600px;
+}
+.contactContainer{
+    width: 100%;
+    border:1px solid lightgray ;
+}
+.contactContainer h2{
+    color:  rgb(32, 31, 31);
+    font-size: 55px;
+    text-align: center;
+}
+.contactleft{
+    margin-bottom: 30px;
+}
+.contact-box{
+    min-height: 95px;
+    border:1px solid lightgray;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+}
+.contact-box:hover{
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
+.contact-icon{
+    color:rgb(32, 31, 31) ;
+    font-size: 28px;
+}
+.contact-label{
+    display: block;
+    color: rgb(32, 31, 31);
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+.contact-value{
+    color: rgb(32, 31, 31);
+    font-size: 20px;
+    margin: 5px 0 0;
+}
+.social-btn{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    border: 1px solid lightgray;
+    border-radius: 18px;
+    color: rgb(32, 31, 31);
+    text-decoration: none;
+    font-size: 20px;
+}
+.social-btn i{
+    font-size: 25px;
+}
+.social-btn:hover{
+    background-color: #dee9f3;
+}
+.contactright{
+    margin-top: 0;
+}
+.contact-form{
+    border: 1px solid lightgray;
+    border-radius: 25px;
+    padding: 20px;
+}
+.form-label{
+    color:rgb(32, 31, 31) !important;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.form-control{
+    border: 1px solid lightgray;
+    color:rgb(32, 31, 31);
+    border-radius: 18px;
+    padding: 16px 20px;
+}
+.form-control::placeholder{
+    color: rgb(32, 31, 31);
+}
+.message-box{
+    height: 155px;
+    resize: none;
+}
+.send-btn{
+    width: 100%;
+    height: 55px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 18px;
+    color: rgb(32, 31, 31);
+    font-size: 17px;
+    font-weight: bold;
+}
+.send-btn i{
+    font-size: 22px;
+    margin-left: 10px;
+}
+.send-btn:hover{
+     background-color:#dee9f3;
+}
+.projects{
+    width: 100%;
+    margin-top: 50px;
+}
+.projectContainer{
+    width: 100%;
+    border: 1px solid lightgray;
+}
+.projectContainer h2{
+    color:  rgb(32, 31, 31);
+    text-align: center;
+    padding-top: 15px;
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.project{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+} 
+.card{
+    height: 100%;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+.card-body{
+    text-align: start;
+}
+.card-body h2{
+    font-family: monospace;
+    font-size: 20px;
+    color: #084891;
+    text-align: left;
+}
+.card-body h5{
+    font-family:'Poppins', sans-serif;
+    color:black;
+    font-size: 50px;
+}
+.card-text{
+    color:rgb(57, 53, 53)!important;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+.view{
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    border:1px solid gray;
+}
+.view:hover{
+    background-color: #dee9f3 !important;
+    color: black !important;
+}
+.footer{
+    margin-top:80px;
+    padding:40px 0;
+    width: 100%;
+    border-top: 1px solid gray;
+}
+.footerdetails{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footerdetails p{
+    font-family:'poppins';
+    color:black;
+    font-size: 25px;
+}
+.social-icon{
+    color:#084891;
+    font-size: 30px;
+}
+.social-media i{
+    color:black;
+    font-size: 30px;
+}
+.social-media i:hover{
+    color: #084891;
+    font-size: 30px;
+}
+.social-icon a{
+    text-decoration: none;
+}
+@media (max-width: 991px){
+
+    .footerdetails{
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .footerdetails p{
+        font-size: 20px;
+        max-width: 300px;
+    }
+
+    .social-icons{
+        gap: 25px;
+    }
+
+    .social-icons a{
+        font-size: 28px;
+    }
+}
